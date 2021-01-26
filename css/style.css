@@ -16,6 +16,9 @@ body {
 
 .social-proof {
     font-size: 15px;
+    font-family: var(--font-main);
+    color: var(--primary-1);
+    padding: 3em 0;
 }
 
 .social-proof .social-proof * {
@@ -28,3 +31,54 @@ body {
 }
 
 
+.social-proof h2 
+{
+    font-size: 1.85rem;
+}
+
+.social-proof p {
+    line-height: 1.6;
+}
+
+
+.social-proof .block-1 {
+    text-align: center;
+}
+
+.social-proof .callout 
+{
+    margin-bottom: 2.5em;
+}
+
+.social-proof .callout p {
+    color: var(--neutral-1);
+}
+
+
+.social-proof .ratings {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.social-proof .rating {
+    background-color: var(--neutral-2);
+    padding: 1.2em 0;
+    margin: 1em 0;
+}
+
+.social-proof .ratings .stars img 
+{
+    margin: 0 0.3em;
+}
+
+.social-proof .ratings p {
+    margin-bottom: 0;
+}
+
+
+
+.container 
+{
+    width: 90%;
+    margin: 0 auto;
+}
