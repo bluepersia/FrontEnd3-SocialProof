@@ -19,6 +19,9 @@ body {
     font-family: var(--font-main);
     color: var(--primary-1);
     padding: 3em 0;
+    background-image: url('../images/bg-pattern-top-mobile.svg');
+    background-position: top right;
+    background-repeat: no-repeat;
 }
 
 .social-proof, .social-proof * {
@@ -127,4 +130,84 @@ body {
 {
     width: 90%;
     margin: 0 auto;
+}
+
+
+
+
+@media (min-width:800px)
+{
+    .social-proof{
+        max-width: 1100px;
+        padding: 10em 0;
+        background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
+        background-position: -25% 0%, calc(100% + 250px) 100%;
+        background-repeat: no-repeat, no-repeat;
+    }
+    .social-proof h2 {
+        font-size: 2.9rem;
+    }
+
+    .social-proof .block-1 {
+        display: flex;
+        text-align: left;
+
+        justify-content: space-between;;
+    }
+
+    .social-proof .block-1 .callout {
+        width: 43%;
+    }
+
+    .social-proof .block-1 .ratings {
+        width: 40%;
+    }
+
+    .social-proof .rating
+    {
+        position: relative;
+        display: flex;
+        margin-bottom: 1.4em;
+    }
+
+
+    .social-proof .rating:first-child {
+        right: 8em;
+    }
+
+    .social-proof .rating:nth-child(2)
+    {
+        right: 4em;
+    }
+
+
+    .social-proof .rating .stars 
+    {
+        margin: 0 2em;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .social-proof .block-2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .social-proof .block-2 .testimonial 
+    {
+        margin: 0 1em;
+        position: relative;
+    }
+
+
+    .social-proof .block-2 .testimonial:nth-child(2)
+    {
+        top: 1em;
+    }
+    .social-proof .block-2 .testimonial:nth-child(3)
+    {
+        top: 2em;
+    }
+
 }
