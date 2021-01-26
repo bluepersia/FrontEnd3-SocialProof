@@ -1,0 +1,30 @@
+:root
+{
+    --primary-1: hsl(300, 43%, 22%);
+    --primary-2: hsl(333, 80%, 67%);
+
+    --neutral-1: hsl(303, 10%, 53%);
+    --neutral-2: hsl(300, 24%, 96%);
+    --neutral-3: hsl(0, 0%, 100%);
+
+    --font-main: 'Spartan', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.social-proof {
+    font-size: 15px;
+}
+
+.social-proof .social-proof * {
+    margin-top: 0;
+    box-sizing: border-box;
+}
+
+.social-proof .social-proof *:last-child {
+    margin-bottom: 0;
+}
+
+
